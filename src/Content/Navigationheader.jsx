@@ -10,11 +10,11 @@ const Navigater = () => {
     return (
 
         <BrowserRouter>
-           
-                        
-                         
-                            
-                  
+
+
+
+
+
             <nav className=" navbar-expand-lg ">
 
                 <header className={styles.header}>

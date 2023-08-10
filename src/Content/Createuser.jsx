@@ -29,8 +29,7 @@ const Createuser = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        // Here, you can perform any actions with the form data,
-        // such as sending it to a server or processing it in some way.
+        
         
         addUser(formData);
         await setFormData( initialState );

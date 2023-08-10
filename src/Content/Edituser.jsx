@@ -1,8 +1,6 @@
-// import React from "react";
 import { useEffect, useState } from "react";
 import { getProfile, updateUser } from "../../Usercrud";
 import {  useNavigate, useSearchParams } from "react-router-dom";
-// import styles from './Edit.module.css';
 const Edituser = () => {
 
 
@@ -44,8 +42,7 @@ const Edituser = () => {
     }, [])
     const handleSubmit = async (e) => {
         e.preventDefault();
-        // Here, you can perform any actions with the form data,
-        // such as sending it to a server or processing it in some way.
+  
         await updateUser(params.get('id'), formData);
         navigate('/user/' + params.get('id'));
     };
