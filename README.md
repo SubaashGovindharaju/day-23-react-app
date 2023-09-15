@@ -1,4 +1,4 @@
-DEPLOYMENT URL: ttps://day-23-task-subaash.netlify.app
+DEPLOYMENT URL: https://day-23-task-subaash.netlify.app
 
 # React + Vite
 
